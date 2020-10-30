@@ -1,13 +1,4 @@
-# looper project definition. Instructions at http://looper.readthedocs.io
+# PEP project configuration. Instructions at http://pep.databio.org
 
-metadata:
-  output_dir: ${PROCESSED}project
-  pipeline_interfaces: ${CODEBASE}pipelines/pipeline_interface.yaml
-  sample_annotation: psa.csv
-
-implied_columns:
-  organism:
-    human:
-      genome: hg38
-    mouse:
-      genome: mm10
+pep_version: 2.0.0
+sample_table: "sample_table.csv"
